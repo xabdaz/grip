@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0D17A5E2853A5370088E929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A5D2853A5370088E929 /* AppDelegate.swift */; };
+		A0D17A602853A5370088E929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A5F2853A5370088E929 /* SceneDelegate.swift */; };
+		A0D17A622853A5370088E929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A612853A5370088E929 /* ViewController.swift */; };
+		A0D17A652853A5370088E929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D17A632853A5370088E929 /* Main.storyboard */; };
+		A0D17A682853A5370088E929 /* grip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A662853A5370088E929 /* grip.xcdatamodeld */; };
+		A0D17A6A2853A5380088E929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D17A692853A5380088E929 /* Assets.xcassets */; };
+		A0D17A6D2853A5380088E929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D17A6B2853A5380088E929 /* LaunchScreen.storyboard */; };
+		A0D17A782853A5380088E929 /* gripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A772853A5380088E929 /* gripTests.swift */; };
+		A0D17A822853A5380088E929 /* gripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A812853A5380088E929 /* gripUITests.swift */; };
+		A0D17A842853A5380088E929 /* gripUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A832853A5380088E929 /* gripUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D17A742853A5380088E929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D17A522853A5370088E929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D17A592853A5370088E929;
+			remoteInfo = grip;
+		};
+		A0D17A7E2853A5380088E929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D17A522853A5370088E929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D17A592853A5370088E929;
+			remoteInfo = grip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0D17A5A2853A5370088E929 /* grip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D17A5D2853A5370088E929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D17A5F2853A5370088E929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0D17A612853A5370088E929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0D17A642853A5370088E929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D17A672853A5370088E929 /* grip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = grip.xcdatamodel; sourceTree = "<group>"; };
+		A0D17A692853A5380088E929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D17A6C2853A5380088E929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0D17A6E2853A5380088E929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D17A732853A5380088E929 /* gripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D17A772853A5380088E929 /* gripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripTests.swift; sourceTree = "<group>"; };
+		A0D17A7D2853A5380088E929 /* gripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D17A812853A5380088E929 /* gripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripUITests.swift; sourceTree = "<group>"; };
+		A0D17A832853A5380088E929 /* gripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D17A572853A5370088E929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A702853A5380088E929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A7A2853A5380088E929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D17A512853A5370088E929 = {
+			isa = PBXGroup;
+			children = (
+				A0D17A5C2853A5370088E929 /* grip */,
+				A0D17A762853A5380088E929 /* gripTests */,
+				A0D17A802853A5380088E929 /* gripUITests */,
+				A0D17A5B2853A5370088E929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D17A5B2853A5370088E929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D17A5A2853A5370088E929 /* grip.app */,
+				A0D17A732853A5380088E929 /* gripTests.xctest */,
+				A0D17A7D2853A5380088E929 /* gripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D17A5C2853A5370088E929 /* grip */ = {
+			isa = PBXGroup;
+			children = (
+				A0D17A5D2853A5370088E929 /* AppDelegate.swift */,
+				A0D17A5F2853A5370088E929 /* SceneDelegate.swift */,
+				A0D17A612853A5370088E929 /* ViewController.swift */,
+				A0D17A632853A5370088E929 /* Main.storyboard */,
+				A0D17A692853A5380088E929 /* Assets.xcassets */,
+				A0D17A6B2853A5380088E929 /* LaunchScreen.storyboard */,
+				A0D17A6E2853A5380088E929 /* Info.plist */,
+				A0D17A662853A5370088E929 /* grip.xcdatamodeld */,
+			);
+			path = grip;
+			sourceTree = "<group>";
+		};
+		A0D17A762853A5380088E929 /* gripTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D17A772853A5380088E929 /* gripTests.swift */,
+			);
+			path = gripTests;
+			sourceTree = "<group>";
+		};
+		A0D17A802853A5380088E929 /* gripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D17A812853A5380088E929 /* gripUITests.swift */,
+				A0D17A832853A5380088E929 /* gripUITestsLaunchTests.swift */,
+			);
+			path = gripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D17A592853A5370088E929 /* grip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D17A872853A5380088E929 /* Build configuration list for PBXNativeTarget "grip" */;
+			buildPhases = (
+				A0D17A562853A5370088E929 /* Sources */,
+				A0D17A572853A5370088E929 /* Frameworks */,
+				A0D17A582853A5370088E929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grip;
+			productName = grip;
+			productReference = A0D17A5A2853A5370088E929 /* grip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D17A722853A5380088E929 /* gripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D17A8A2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripTests" */;
+			buildPhases = (
+				A0D17A6F2853A5380088E929 /* Sources */,
+				A0D17A702853A5380088E929 /* Frameworks */,
+				A0D17A712853A5380088E929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D17A752853A5380088E929 /* PBXTargetDependency */,
+			);
+			name = gripTests;
+			productName = gripTests;
+			productReference = A0D17A732853A5380088E929 /* gripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0D17A7C2853A5380088E929 /* gripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D17A8D2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripUITests" */;
+			buildPhases = (
+				A0D17A792853A5380088E929 /* Sources */,
+				A0D17A7A2853A5380088E929 /* Frameworks */,
+				A0D17A7B2853A5380088E929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D17A7F2853A5380088E929 /* PBXTargetDependency */,
+			);
+			name = gripUITests;
+			productName = gripUITests;
+			productReference = A0D17A7D2853A5380088E929 /* gripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D17A522853A5370088E929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A0D17A592853A5370088E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0D17A722853A5380088E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A0D17A592853A5370088E929;
+					};
+					A0D17A7C2853A5380088E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A0D17A592853A5370088E929;
+					};
+				};
+			};
+			buildConfigurationList = A0D17A552853A5370088E929 /* Build configuration list for PBXProject "grip" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0D17A512853A5370088E929;
+			productRefGroup = A0D17A5B2853A5370088E929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D17A592853A5370088E929 /* grip */,
+				A0D17A722853A5380088E929 /* gripTests */,
+				A0D17A7C2853A5380088E929 /* gripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D17A582853A5370088E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D17A6D2853A5380088E929 /* LaunchScreen.storyboard in Resources */,
+				A0D17A6A2853A5380088E929 /* Assets.xcassets in Resources */,
+				A0D17A652853A5370088E929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A712853A5380088E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A7B2853A5380088E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D17A562853A5370088E929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D17A622853A5370088E929 /* ViewController.swift in Sources */,
+				A0D17A5E2853A5370088E929 /* AppDelegate.swift in Sources */,
+				A0D17A602853A5370088E929 /* SceneDelegate.swift in Sources */,
+				A0D17A682853A5370088E929 /* grip.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A6F2853A5380088E929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D17A782853A5380088E929 /* gripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D17A792853A5380088E929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D17A842853A5380088E929 /* gripUITestsLaunchTests.swift in Sources */,
+				A0D17A822853A5380088E929 /* gripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D17A752853A5380088E929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D17A592853A5370088E929 /* grip */;
+			targetProxy = A0D17A742853A5380088E929 /* PBXContainerItemProxy */;
+		};
+		A0D17A7F2853A5380088E929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D17A592853A5370088E929 /* grip */;
+			targetProxy = A0D17A7E2853A5380088E929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D17A632853A5370088E929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D17A642853A5370088E929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D17A6B2853A5380088E929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D17A6C2853A5380088E929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D17A852853A5380088E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0D17A862853A5380088E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D17A882853A5380088E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = grip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.grip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D17A892853A5380088E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = grip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.grip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0D17A8B2853A5380088E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.gripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grip.app/grip";
+			};
+			name = Debug;
+		};
+		A0D17A8C2853A5380088E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.gripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grip.app/grip";
+			};
+			name = Release;
+		};
+		A0D17A8E2853A5380088E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.gripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grip;
+			};
+			name = Debug;
+		};
+		A0D17A8F2853A5380088E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xabdaz.gripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D17A552853A5370088E929 /* Build configuration list for PBXProject "grip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D17A852853A5380088E929 /* Debug */,
+				A0D17A862853A5380088E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D17A872853A5380088E929 /* Build configuration list for PBXNativeTarget "grip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D17A882853A5380088E929 /* Debug */,
+				A0D17A892853A5380088E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D17A8A2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D17A8B2853A5380088E929 /* Debug */,
+				A0D17A8C2853A5380088E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D17A8D2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D17A8E2853A5380088E929 /* Debug */,
+				A0D17A8F2853A5380088E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0D17A662853A5370088E929 /* grip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0D17A672853A5370088E929 /* grip.xcdatamodel */,
+			);
+			currentVersion = A0D17A672853A5370088E929 /* grip.xcdatamodel */;
+			path = grip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0D17A522853A5370088E929 /* Project object */;
+}
