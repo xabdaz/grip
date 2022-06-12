@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116F3A06B66774FC20D68161 /* Pods_gripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD465CBC7D5652F8201A365A /* Pods_gripTests.framework */; };
 		A0D17A5E2853A5370088E929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A5D2853A5370088E929 /* AppDelegate.swift */; };
 		A0D17A602853A5370088E929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A5F2853A5370088E929 /* SceneDelegate.swift */; };
 		A0D17A622853A5370088E929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A612853A5370088E929 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		A0D17A782853A5380088E929 /* gripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A772853A5380088E929 /* gripTests.swift */; };
 		A0D17A822853A5380088E929 /* gripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A812853A5380088E929 /* gripUITests.swift */; };
 		A0D17A842853A5380088E929 /* gripUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17A832853A5380088E929 /* gripUITestsLaunchTests.swift */; };
+		B98200C7C4BA1796BD14F7E0 /* Pods_grip_gripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260C0C4CD67A6E3EA245E36C /* Pods_grip_gripUITests.framework */; };
+		BF16D2EFACEC0156D3FD70B7 /* Pods_grip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF4E760A9B792EC716AAF26 /* Pods_grip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010C17BF95AC9C0D59EC512E /* Pods-grip.dev production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.dev production.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.dev production.xcconfig"; sourceTree = "<group>"; };
+		016EFC3CA3FC80D7E7163989 /* Pods-grip-gripUITests.dev mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.dev mock.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.dev mock.xcconfig"; sourceTree = "<group>"; };
+		0DF0C98BABC49266D31C1B84 /* Pods-grip.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.production.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.production.xcconfig"; sourceTree = "<group>"; };
+		0DF4E760A9B792EC716AAF26 /* Pods_grip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2233F04A1C495D6B1219F331 /* Pods-grip-gripUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.production.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.production.xcconfig"; sourceTree = "<group>"; };
+		260C0C4CD67A6E3EA245E36C /* Pods_grip_gripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grip_gripUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E2BB42E6F8E77311239261 /* Pods-grip.dev qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.dev qa.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.dev qa.xcconfig"; sourceTree = "<group>"; };
+		328121B41145F021DD082B15 /* Pods-gripTests.dev mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.dev mock.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.dev mock.xcconfig"; sourceTree = "<group>"; };
+		3A6F12436FF5DF286DC594A4 /* Pods-grip-gripUITests.dev stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.dev stag.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.dev stag.xcconfig"; sourceTree = "<group>"; };
+		56F57561F9A7703F2DB4DF47 /* Pods-grip.dev mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.dev mock.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.dev mock.xcconfig"; sourceTree = "<group>"; };
+		6B7D7A53A53E1715901E6DA8 /* Pods-gripTests.dev qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.dev qa.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.dev qa.xcconfig"; sourceTree = "<group>"; };
+		7965D57AE9FA6995E7CFAE5F /* Pods-gripTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.production.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.production.xcconfig"; sourceTree = "<group>"; };
 		A0D17A5A2853A5370088E929 /* grip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D17A5D2853A5370088E929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D17A5F2853A5370088E929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,12 @@
 		A0D17A7D2853A5380088E929 /* gripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D17A812853A5380088E929 /* gripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripUITests.swift; sourceTree = "<group>"; };
 		A0D17A832853A5380088E929 /* gripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF19712C7524F5587204A4A4 /* Pods-grip-gripUITests.dev production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.dev production.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.dev production.xcconfig"; sourceTree = "<group>"; };
+		B342442AB1D4C93CCA339786 /* Pods-gripTests.dev production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.dev production.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.dev production.xcconfig"; sourceTree = "<group>"; };
+		C49B1E3B354716F4917A9ADB /* Pods-gripTests.dev stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.dev stag.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.dev stag.xcconfig"; sourceTree = "<group>"; };
+		D9A4F7F8B5E4921689990B6E /* Pods-grip-gripUITests.dev qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.dev qa.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.dev qa.xcconfig"; sourceTree = "<group>"; };
+		DC0C3983AF09945CA6B9BB9B /* Pods-grip.dev stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.dev stag.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.dev stag.xcconfig"; sourceTree = "<group>"; };
+		FD465CBC7D5652F8201A365A /* Pods_gripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gripTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF16D2EFACEC0156D3FD70B7 /* Pods_grip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116F3A06B66774FC20D68161 /* Pods_gripTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98200C7C4BA1796BD14F7E0 /* Pods_grip_gripUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E298458773383BFB6408BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF4E760A9B792EC716AAF26 /* Pods_grip.framework */,
+				260C0C4CD67A6E3EA245E36C /* Pods_grip_gripUITests.framework */,
+				FD465CBC7D5652F8201A365A /* Pods_gripTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CBD280C5D5D88CEE1261E6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C3983AF09945CA6B9BB9B /* Pods-grip.dev stag.xcconfig */,
+				27E2BB42E6F8E77311239261 /* Pods-grip.dev qa.xcconfig */,
+				56F57561F9A7703F2DB4DF47 /* Pods-grip.dev mock.xcconfig */,
+				010C17BF95AC9C0D59EC512E /* Pods-grip.dev production.xcconfig */,
+				0DF0C98BABC49266D31C1B84 /* Pods-grip.production.xcconfig */,
+				3A6F12436FF5DF286DC594A4 /* Pods-grip-gripUITests.dev stag.xcconfig */,
+				D9A4F7F8B5E4921689990B6E /* Pods-grip-gripUITests.dev qa.xcconfig */,
+				016EFC3CA3FC80D7E7163989 /* Pods-grip-gripUITests.dev mock.xcconfig */,
+				AF19712C7524F5587204A4A4 /* Pods-grip-gripUITests.dev production.xcconfig */,
+				2233F04A1C495D6B1219F331 /* Pods-grip-gripUITests.production.xcconfig */,
+				C49B1E3B354716F4917A9ADB /* Pods-gripTests.dev stag.xcconfig */,
+				6B7D7A53A53E1715901E6DA8 /* Pods-gripTests.dev qa.xcconfig */,
+				328121B41145F021DD082B15 /* Pods-gripTests.dev mock.xcconfig */,
+				B342442AB1D4C93CCA339786 /* Pods-gripTests.dev production.xcconfig */,
+				7965D57AE9FA6995E7CFAE5F /* Pods-gripTests.production.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A0D17A512853A5370088E929 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				A0D17A762853A5380088E929 /* gripTests */,
 				A0D17A802853A5380088E929 /* gripUITests */,
 				A0D17A5B2853A5370088E929 /* Products */,
+				9CBD280C5D5D88CEE1261E6C /* Pods */,
+				6E298458773383BFB6408BE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D17A872853A5380088E929 /* Build configuration list for PBXNativeTarget "grip" */;
 			buildPhases = (
+				25DE852144BD867EFEC2E66B /* [CP] Check Pods Manifest.lock */,
 				A0D17A562853A5370088E929 /* Sources */,
 				A0D17A572853A5370088E929 /* Frameworks */,
 				A0D17A582853A5370088E929 /* Resources */,
@@ -162,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D17A8A2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripTests" */;
 			buildPhases = (
+				637A0922070CC5720044A906 /* [CP] Check Pods Manifest.lock */,
 				A0D17A6F2853A5380088E929 /* Sources */,
 				A0D17A702853A5380088E929 /* Frameworks */,
 				A0D17A712853A5380088E929 /* Resources */,
@@ -180,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D17A8D2853A5380088E929 /* Build configuration list for PBXNativeTarget "gripUITests" */;
 			buildPhases = (
+				C48BF6A41B6A64570044BACF /* [CP] Check Pods Manifest.lock */,
 				A0D17A792853A5380088E929 /* Sources */,
 				A0D17A7A2853A5380088E929 /* Frameworks */,
 				A0D17A7B2853A5380088E929 /* Resources */,
@@ -263,6 +325,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25DE852144BD867EFEC2E66B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		637A0922070CC5720044A906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gripTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48BF6A41B6A64570044BACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grip-gripUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0D17A562853A5370088E929 /* Sources */ = {
@@ -444,6 +575,7 @@
 		};
 		A0D17A882853A5380088E929 /* Dev Stag */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0C3983AF09945CA6B9BB9B /* Pods-grip.dev stag.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +606,7 @@
 		};
 		A0D17A892853A5380088E929 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF0C98BABC49266D31C1B84 /* Pods-grip.production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +637,7 @@
 		};
 		A0D17A8B2853A5380088E929 /* Dev Stag */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49B1E3B354716F4917A9ADB /* Pods-gripTests.dev stag.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +658,7 @@
 		};
 		A0D17A8C2853A5380088E929 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7965D57AE9FA6995E7CFAE5F /* Pods-gripTests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +679,7 @@
 		};
 		A0D17A8E2853A5380088E929 /* Dev Stag */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6F12436FF5DF286DC594A4 /* Pods-grip-gripUITests.dev stag.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +698,7 @@
 		};
 		A0D17A8F2853A5380088E929 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2233F04A1C495D6B1219F331 /* Pods-grip-gripUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -640,6 +777,7 @@
 		};
 		A0D17A922853AAD20088E929 /* Dev QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E2BB42E6F8E77311239261 /* Pods-grip.dev qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconQA;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -670,6 +808,7 @@
 		};
 		A0D17A932853AAD20088E929 /* Dev QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7D7A53A53E1715901E6DA8 /* Pods-gripTests.dev qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,6 +829,7 @@
 		};
 		A0D17A942853AAD20088E929 /* Dev QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A4F7F8B5E4921689990B6E /* Pods-grip-gripUITests.dev qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -768,6 +908,7 @@
 		};
 		A0D17A962853AB0E0088E929 /* Dev Mock */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F57561F9A7703F2DB4DF47 /* Pods-grip.dev mock.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconMock;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -798,6 +939,7 @@
 		};
 		A0D17A972853AB0E0088E929 /* Dev Mock */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328121B41145F021DD082B15 /* Pods-gripTests.dev mock.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,6 +960,7 @@
 		};
 		A0D17A982853AB0E0088E929 /* Dev Mock */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016EFC3CA3FC80D7E7163989 /* Pods-grip-gripUITests.dev mock.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -896,6 +1039,7 @@
 		};
 		A0D17A9A2853AB510088E929 /* Dev Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010C17BF95AC9C0D59EC512E /* Pods-grip.dev production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -926,6 +1070,7 @@
 		};
 		A0D17A9B2853AB510088E929 /* Dev Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B342442AB1D4C93CCA339786 /* Pods-gripTests.dev production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -946,6 +1091,7 @@
 		};
 		A0D17A9C2853AB510088E929 /* Dev Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF19712C7524F5587204A4A4 /* Pods-grip-gripUITests.dev production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
